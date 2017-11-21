@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TasksComponent } from './tasks/tasks.component';
+import { TaskAddComponent } from './tasks/task-add/task-add.component';
+import { TasksListComponent } from './tasks/tasks-list/tasks-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TasksComponent
+    TasksComponent,
+    TaskAddComponent,
+    TasksListComponent
   ],
   imports: [
     BrowserModule
